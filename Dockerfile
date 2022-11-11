@@ -4,8 +4,8 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 WORKDIR /app
 
-ENV SWAGGER_CODEGEN_CLI_VERSION=2.4.28 \
-    SWAGGER_CODEGEN_CLI_SHA256=4b46005b875d5d43d26158f1744ce246bf2c06da91d8cd5a01f556d8e29f7e9d
+ENV SWAGGER_CODEGEN_CLI_VERSION=2.4.29 \
+    SWAGGER_CODEGEN_CLI_SHA256=7322485ef08b6f87d0da9d4f09b68462f9f140aab55cc008f1e0ffaabc236f2d
 
 RUN  apt-get update \
   && apt-get install -y wget \
